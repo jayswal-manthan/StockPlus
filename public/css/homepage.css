@@ -1,0 +1,366 @@
+.new-header {
+    background-color: transparent ;
+    padding: 10px 15px;
+    position: relative;
+  }
+  
+  .head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    /* font-weight: 600; */
+    position: absolute;
+    top: 10px;
+    left: 65px;
+    background-color: transparent;
+    /* transform: translate(-980%, -199%);  */
+    display: flex;
+    white-space: nowrap;
+  }
+  .head a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent */
+  }
+  .head-left {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+  }
+  .head-right {
+    /* font-weight: 600; */
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 5px;
+    left: 900px;
+    display: flex;
+    gap: 20px;
+    /* transform: translate(-980%, -199%);  */
+   }
+    .line {
+      position: absolute;
+      top: 10%; /* Adjust this value to position the line where you want */
+      left: 0;
+      width: 100%; /* Make the line span the entire width of the image */
+      height: 1px; /* Adjust the thickness of the line */
+      background-color: rgb(255, 255, 255); /* Adjust the color of the line */
+      transform: translateY(-1800%); /* Center the line vertically */
+    }
+  
+  /* Apply light gray background to content */
+  .container {
+    background-color: #ffffff;  
+    position: relative;
+    display: inline-block;
+    margin: 0%;
+  }
+  
+  /* Dark gray text for main content */
+  .text-dark {
+    color: #333333; /* Dark Gray */
+  }
+  
+  .img{
+    margin: 10px;
+  }
+  
+  .main-img{
+    align-items: center;
+    margin-left: -35px;
+    margin-right: -135px;
+  }
+  
+  .hover-buttons {
+    position: absolute;
+    top: 50%; /* Adjust this value to position the buttons vertically */
+    left: 50%; /* Adjust this value to position the buttons horizontally */
+    transform: translate(-50%, -50%);
+    display: block;
+    /* display: none; Initially hide the buttons */
+  }
+  
+  /* Style the buttons */
+  .hover-buttons button {
+    margin: 5px; /* Add spacing between buttons */
+    cursor: pointer;
+  }
+  
+  /* Show the buttons on hover */
+  .main-img:hover .hover-buttons {
+    display: block;
+  }
+  
+  .main-text{
+    font-family: Georgia, serif;  
+    color: #ffffff;
+    /* font-weight: 600; */
+    font-size: 70px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    white-space: nowrap;
+  }
+  
+  .user-circle{
+    font-size: 20px;
+  }
+  
+  .form-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container label,
+  .form-container input,
+  .form-container button {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .form-container label {
+    width: 100px; /* Adjust the width of labels to your preference */
+  }
+  
+  .logo-1{
+    font-size: 20px;
+    margin: 100px;
+    padding: 20px;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .input-group {
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
+  
+  
+  .btn-outline-secondary {
+    background-color: #fff;
+    border: 1px solid #000000;
+    color: #ccc;
+  }
+  .btn-outline-secondary:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  .about {
+    margin-left: 55px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #f2f2f2; /* Set the background color */
+    padding: 20px; /* Add padding for spacing */
+    width: 100%; /* Ensure the section covers the entire width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  .abt {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .abtxt {
+    text-align: center;
+    color: #6b6161;
+  }
+  .images-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center; /* Center the images horizontally */
+  }
+  .image-container {
+    text-align: center;
+  }
+  .image {
+    margin: 0 10px; /* Adjust the spacing between images */
+    width: auto; /* Ensure images don't exceed container width */
+  }
+  .description {
+    margin-top: 10px; /* Add some space between image and description */
+  }
+  .description h5 {
+    font-size: 18px; /* Adjust font size */
+    line-height: 1.6; /* Adjust line height */
+    color: #333; /* Adjust text color */
+    margin-top: 5px; /* Add space above paragraph */
+    margin-bottom: 10px; /* Add space below paragraph */
+  }
+  .description p {
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.6; /* Adjust line height */
+    color: #333; /* Adjust text color */
+    margin-top: 5px; /* Add space above paragraph */
+    margin-bottom: 10px; /* Add space below paragraph */
+  }
+  
+  .sss {
+    margin-left: 55px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #f2f2f2; /* Set the background color */
+    padding: 20px; /* Add padding for spacing */
+    width: 100%; /* Ensure the section covers the entire width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  .sssimg {
+    display: flex;
+    align-items: center;
+  }
+  .image-container1 {
+    flex: 0 0 auto; /* Prevent the image from growing */
+    margin-right: 30px; /* Add space between the image and text */
+  }
+  .ssstxt {
+    flex-grow: 1; /* Allow the text to grow and take up remaining space */
+  }
+  .ssstxt h1{
+    margin-bottom: 20px;  
+  }
+  
+  /* Transportation */
+  .transportation {
+    margin-left: 55px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #f2f2f2; /* Set the background color */
+    padding: 20px; /* Add padding for spacing */
+    width: 100%; /* Ensure the section covers the entire width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  
+  .footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 0;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-column {
+    flex: 1;
+    padding: 0 20px;
+  }
+  .footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  ul li a:hover {
+    color: #ff6600;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+  }
+  .footer-bottom p {
+    font-size: 0.9rem;
+  }
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  /* Form */
+  .form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form {
+    max-width: 350px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-options {
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup {
+    font-size: 14px;
+  }
+  
+  .signup-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn,
+  .login-btn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-btn {
+    background-color: #ccc;
+  }
+  
+  .login-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
